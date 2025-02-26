@@ -13,3 +13,10 @@
 # c) Find and print the index of "cat"
 
 #YOUR CODE HERE
+
+my_list = ["7", "9", "a", "cat", False]
+print(my_list)
+my_list.append(3.14)
+my_list.append(7)
+print(my_list)
+print(my_list.index("cat"))
